@@ -2,23 +2,15 @@
 <html>
 <body>
 
+
 <h1>My First Google Map</h1>
 
 <div id="googleMap" style="width:100%;height:400px;"></div>
 
 <script>
 
-//get lat/long of all hospitals in OR to automatically load on map
-var request = new XMLHttpRequest();
-request.open("GET","dummy_data.csv");
-request.addEventListener('load', function(event) {
-   if (request.status >= 200 && request.status < 300) {
-      console.log(request.responseText);
-   } else {
-      console.warn(request.statusText, request.responseText);
-   }
-});
-request.send();
+//uses load function to get file with lat/long
+map.data.loadGeoJson('test_data.json');
 
   function myMap() {
   var mapProp= {
