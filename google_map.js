@@ -8,6 +8,17 @@
 
 <script>
 
+var request = new XMLHttpRequest();
+request.open("GET","test_data.csv");
+request.addEventListener('load', function(event) {
+   if (request.status >= 200 && request.status < 300) {
+      console.log(request.responseText);
+   } else {
+      console.warn(request.statusText, request.responseText);
+   }
+});
+request.send();
+
   function myMap() {
   var mapProp= {
     center:new google.maps.LatLng(51.508742,-0.120850), //TODO update these coordinates to be center average of all OR hospitals?
