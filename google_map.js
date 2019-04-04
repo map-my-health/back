@@ -3,7 +3,7 @@
 <body>
 
 
-<h1>My First Google Map</h1>
+<h1>Oregon Hospitals</h1>
 
 <div id="googleMap" style="width:100%;height:400px;"></div>
 
@@ -14,7 +14,7 @@ map.data.loadGeoJson('test_data.json');
 
   function myMap() {
   var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850), //TODO update these coordinates to be center average of all OR hospitals?
+    center:new google.maps.LatLng(44.037632, -120.513740), //TODO update these coordinates to be center average of all OR hospitals?
     zoom:5,
   };
 
