@@ -1,0 +1,31 @@
+Procedure,Location,Median value
+CT scan: Abdomen/GI,Mid-Columbia Medical Center,974
+CT scan: Abdomen/GI,Asante Three Rivers Medical Center,840
+CT scan: Abdomen/GI,Providence St Vincent Medical Ctr,229
+CT scan: Abdomen/GI,Asante Ashland Community Hospital,2279
+CT scan: Abdomen/GI,Legacy Emanuel Medical Center,586
+CT scan: Abdomen/GI,OHSU Hospital,1750
+CT scan: Abdomen/GI,Good Samaritan Regional Medical Center,835
+CT scan: Abdomen/GI,Legacy Good Samaritan Medical Center,835
+CT scan: Abdomen/GI,Asante Rogue Regional Medical Center,846
+CT scan: Abdomen/GI,McKenzie-Willamette Medical Center,713
+Cardiovascular: Echocardiography,Mid-Columbia Medical Center,2077
+Cardiovascular: Echocardiography,Asante Three Rivers Medical Center,1594
+Cardiovascular: Echocardiography,Providence St Vincent Medical Ctr,1354
+Cardiovascular: Echocardiography,Asante Ashland Community Hospital,1635
+Cardiovascular: Echocardiography,Legacy Emanuel Medical Center,1272
+Cardiovascular: Echocardiography,OHSU Hospital,1270
+Cardiovascular: Echocardiography,Good Samaritan Regional Medical Center,1312
+Cardiovascular: Echocardiography,Legacy Good Samaritan Medical Center,1312
+Cardiovascular: Echocardiography,Asante Rogue Regional Medical Center,1620
+Cardiovascular: Echocardiography,McKenzie-Willamette Medical Center,1980
+Ultrasound,Mid-Columbia Medical Center,572
+Ultrasound,Asante Three Rivers Medical Center,587
+Ultrasound,Providence St Vincent Medical Ctr,194
+Ultrasound,Asante Ashland Community Hospital,532
+Ultrasound,Legacy Emanuel Medical Center,416
+Ultrasound,OHSU Hospital,364
+Ultrasound,Good Samaritan Regional Medical Center,516
+Ultrasound,Legacy Good Samaritan Medical Center,434
+Ultrasound,Asante Rogue Regional Medical Center,536
+Ultrasound,McKenzie-Willamette Medical Center,442
