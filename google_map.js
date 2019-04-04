@@ -14,7 +14,7 @@ map.data.loadGeoJson('test_data.json');
 
   function myMap() {
   var mapProp= {
-    center:new google.maps.LatLng(44.037632, -120.513740), //TODO update these coordinates to be center average of all OR hospitals?
+    center:new google.maps.LatLng(44.037632, -120.513740), //TODO currently center of OR; update these coordinates to be center average of all OR hospitals?
     zoom:5,
   };
 
