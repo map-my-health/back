@@ -8,8 +8,9 @@
 
 <script>
 
+//get lat/long of all hospitals in OR to automatically load on map
 var request = new XMLHttpRequest();
-request.open("GET","test_data.csv");
+request.open("GET","dummy_data.csv");
 request.addEventListener('load', function(event) {
    if (request.status >= 200 && request.status < 300) {
       console.log(request.responseText);
