@@ -13,14 +13,15 @@ end_url = '/#cost-estimates'
 url = base_url+location+end_url
 
 # query website to return html to variable 'page'
-page = urllib3.urlopen(url)
+http = urllib3.PoolManager()
+page = http.request('GET', url)
 
 # parse html and store into soup variable
 soup = BeautifulSoup(page, 'html.parser')
 
 # get value from html class
 # measure-state-rating is the hospital median price
-value = soup.find('ul', attrs=('class': 'measure-state-rating'))
+value = soup.find('ul', attrs={'class': 'measure-state-rating'})
 
 # remove starting and trailing data
 median = value.text.strip()
